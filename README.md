@@ -1,5 +1,8 @@
 # Renom
 
+[![Go CI](https://github.com/chashtager/renom/actions/workflows/go-tests.yml/badge.svg)](https://github.com/chashtager/renom/actions)
+
+
 A simple CLI tool to recursively rename files, directories, and replace text inside files.
 
 ## 🚀 Features

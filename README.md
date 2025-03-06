@@ -1,4 +1,4 @@
-# Magic Rename
+# Renom
 
 A simple CLI tool to recursively rename files, directories, and replace text inside files.
 

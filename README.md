@@ -21,7 +21,7 @@ cd renom
 ### **2️⃣ Build the CLI**
 Compile the Go binary:
 ```bash
-go build -o renom ./cmd/renom
+go build -o renom ./cmd/main.go
 ```
 This will generate an executable file named `renom`.
 

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/chashtager/renom/internal/fileops"
+	"github.com/Chashtager/Renom/internal/fileops"
 )
 
 func TestRenameFile(t *testing.T) {

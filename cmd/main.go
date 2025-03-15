@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/chashtager/renom/internal/dirops"
-	"github.com/chashtager/renom/internal/fileops"
+	"github.com/Chashtager/Renom/internal/dirops"
+	"github.com/Chashtager/Renom/internal/fileops"
 )
 
 func main() {

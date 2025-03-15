@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/chashtager/renom/internal/dirops"
+	"github.com/Chashtager/Renom/internal/dirops"
 )
 
 func TestRenameDirectories(t *testing.T) {

@@ -1,6 +1,6 @@
 # Renom
 
-[![Go CI](https://github.com/chashtager/renom/actions/workflows/go-tests.yml/badge.svg)](https://github.com/chashtager/renom/actions)
+[![Go CI](https://github.com/Chashtager/Renom/actions/workflows/go-tests.yml/badge.svg)](https://github.com/Chashtager/Renom/actions)
 
 
 A simple CLI tool to recursively rename files, directories, and replace text inside files.
@@ -14,7 +14,7 @@ A simple CLI tool to recursively rename files, directories, and replace text ins
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/chashtager/renom.git
+git clone https://github.com/Chashtager/Renom.git
 cd renom
 ```
 

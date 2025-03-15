@@ -4,9 +4,6 @@ import (
 	"fmt"
 	"log"
 	"os"
-
-	"github.com/CHashtager/Renom/internal/dirops"
-	"github.com/CHashtager/Renom/internal/fileops"
 )
 
 func main() {
@@ -22,13 +19,13 @@ func main() {
 	}
 
 	// Rename directories first
-	err = dirops.RenameDirectories(currentDir, oldStr, newStr)
+	err = RenameDirectories(currentDir, oldStr, newStr)
 	if err != nil {
 		log.Fatalf("Error renaming directories: %v", err)
 	}
 
 	// Rename files and replace content
-	err = fileops.ProcessFiles(currentDir, oldStr, newStr)
+	err = ProcessFiles(currentDir, oldStr, newStr)
 	if err != nil {
 		log.Fatalf("Error processing files: %v", err)
 	}

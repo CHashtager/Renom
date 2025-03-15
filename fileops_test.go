@@ -1,11 +1,9 @@
-package tests
+package main
 
 import (
 	"os"
 	"path/filepath"
 	"testing"
-
-	"github.com/CHashtager/Renom/internal/fileops"
 )
 
 func TestRenameFile(t *testing.T) {
@@ -21,7 +19,7 @@ func TestRenameFile(t *testing.T) {
 	}
 
 	// Run the rename function
-	_, err = fileops.RenameFile(tempDir, "test_old.txt", "old", "new")
+	_, err = RenameFile(tempDir, "test_old.txt", "old", "new")
 	if err != nil {
 		t.Fatalf("RenameFile failed: %v", err)
 	}
@@ -45,7 +43,7 @@ func TestReplaceInFile(t *testing.T) {
 	}
 
 	// Replace "old" with "new"
-	err = fileops.ReplaceInFile(testFile, "old", "new")
+	err = ReplaceInFile(testFile, "old", "new")
 	if err != nil {
 		t.Fatalf("ReplaceInFile failed: %v", err)
 	}

@@ -1,11 +1,9 @@
-package tests
+package main
 
 import (
 	"os"
 	"path/filepath"
 	"testing"
-
-	"github.com/CHashtager/Renom/internal/dirops"
 )
 
 func TestRenameDirectories(t *testing.T) {
@@ -21,7 +19,7 @@ func TestRenameDirectories(t *testing.T) {
 	}
 
 	// Run rename function
-	err = dirops.RenameDirectories(tempDir, "old", "new")
+	err = RenameDirectories(tempDir, "old", "new")
 	if err != nil {
 		t.Fatalf("RenameDirectories failed: %v", err)
 	}
